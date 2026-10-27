@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Dokumen Terlindungi — Modul_Belajar.pdf</title>
+<style>
+  :root{
+    --bg1:#0b1220; --bg2:#111a2e; --card:#ffffff; --ink:#0f172a;
+    --muted:#5b6b86; --line:#e3e8f0; --emas:#b58a2b; --emas2:#7c5d12;
+    --hijau:#15803d; --merah:#b91c1c;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{
+    margin:0;padding:14px;color:var(--ink);
+    background:linear-gradient(180deg,#0b1220,#16213c 55%,#0b1220);
+    font-family:"Segoe UI",Roboto,system-ui,-apple-system,Arial,sans-serif;
+    font-size:16px;line-height:1.5;
+  }
+  .bungkus{max-width:660px;margin:0 auto}
+  .pesan{
+    background:linear-gradient(180deg,#fffdf5,#fff8e6);
+    border:2px solid var(--emas);border-radius:14px;
+    padding:14px 14px 12px;margin:0 0 14px;white-space:pre-wrap;
+    font-family:"Courier New",Courier,monospace;font-size:13.5px;line-height:1.62;
+    color:#3b2d06;box-shadow:0 10px 26px rgba(0,0,0,.35)
+  }
+  .kartu{
+    background:var(--card);border-radius:14px;padding:16px;
+    box-shadow:0 12px 30px rgba(0,0,0,.35)
+  }
+  h1{font-size:17px;margin:0 0 4px;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 14px;word-break:break-word}
+  label{display:block;font-weight:700;font-size:14px;margin-bottom:7px}
+  .baris{display:flex;gap:8px}
+  input#kode{
+    flex:1;min-width:0;padding:13px 12px;font-size:22px;letter-spacing:7px;
+    text-align:center;border:2px solid var(--line);border-radius:11px;
+    font-family:"Courier New",Courier,monospace;background:#fbfcfe;color:var(--ink)
+  }
+  input#kode:focus{outline:none;border-color:var(--emas);background:#fff}
+  button{
+    width:100%;margin-top:10px;padding:14px;border:0;border-radius:11px;
+    background:linear-gradient(180deg,#c9973a,#a3771a);color:#fff;
+    font-size:16px;font-weight:700;letter-spacing:.4px;cursor:pointer;
+    box-shadow:0 6px 16px rgba(163,119,26,.35)
+  }
+  button:disabled{opacity:.6;cursor:progress}
+  button.unduh{background:linear-gradient(180deg,#1a9c52,#12703b);box-shadow:0 6px 16px rgba(18,112,59,.35);margin-top:0}
+  .status{margin-top:11px;font-size:14px;min-height:20px}
+  .status.err{color:var(--merah);font-weight:600}
+  .status.ok{color:var(--hijau);font-weight:600}
+  .catatan{margin:14px 0 0;padding:12px 14px;background:#f6f8fc;border-radius:10px;
+    color:var(--muted);font-size:12.8px;line-height:1.6}
+  .catatan ul{margin:6px 0 0;padding-left:18px}
+  .catatan li{margin:3px 0}
+  .hasil{margin-top:14px;background:#f0fdf4;border:2px solid #86efac;border-radius:14px;padding:14px}
+  .hasil h2{margin:0 0 4px;font-size:16px;color:#14532d}
+  .hasil .meta{color:#3f6212;font-size:12.8px;margin-bottom:12px;word-break:break-word}
+  .pratinjau{margin-top:12px;border:1px solid #bbf7d0;border-radius:10px;overflow:hidden;background:#fff}
+  .pratinjau iframe,.pratinjau img{display:block;width:100%;border:0}
+  .pratinjau iframe{height:420px}
+  .lampiran{background:#f6f8fc;border-radius:9px;padding:11px;font-size:13px;color:#334155}
+  .lampiran a{color:#0f766e;font-weight:600;word-break:break-all}
+  .kaki{margin:16px 2px 6px;color:#9fb0cc;font-size:11.5px;text-align:center;line-height:1.7}
+  .sembunyi{display:none}
+</style>
+</head>
+<body>
+<div class="bungkus">
+
+  <pre class="pesan">✨  PESAN KASIH &amp; KEJUJURAN  ✨
+
+ingaa bayar eeee, jang mamtada, nanti sa lapor di bunda Maria,
+sebab dari Bunda Maria kita menuju Tuhan Yesus.
+
+Sungguh Besar Kasih Allah Bagi Kita
+
+📖  Roma 13:7
+"Jika kamu membeli, bayarlah! Jangan mengambil barang dagangan
+orang lain tanpa memenuhi kewajibanmu. Penjual berhak menerima
+pembayaran sesuai kesepakatan. Berdaganglah dengan jujur,
+sebab Tuhan menghendaki keadilan, bukan kecurangan."</pre>
+
+  <div class="kartu">
+    <h1>🔐 Dokumen Terlindungi</h1>
+    <p class="sub">Modul_Belajar.pdf &nbsp;·&nbsp; ID: SMK01 &nbsp;·&nbsp; dibuat 2026-10-26 23:17:36</p>
+
+    <label for="kode">Masukkan kode lisensi (6 angka):</label>
+    <div class="baris">
+      <input id="kode" type="tel" inputmode="numeric" autocomplete="off"
+             maxlength="6" placeholder="______" aria-label="Kode lisensi 6 angka" />
+    </div>
+    <button id="tombol-buka" type="button">BUKA DOKUMEN</button>
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+
+    <div class="catatan">
+      <ul>
+        <li>Tidak perlu pasang aplikasi tambahan</li>
+        <li>Bekerja langsung di HP ( tanpa internet )</li>
+        <li>1 kode = 1 kali dipakai di perangkat ini</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="hasil" class="hasil sembunyi">
+    <h2>✅ Dokumen terbuka</h2>
+    <div class="meta" id="meta-hasil"></div>
+    <button id="tombol-unduh" class="unduh" type="button">SIMPAN / UNDUH DOKUMEN</button>
+    <div id="pratinjau" class="pratinjau sembunyi"></div>
+    <div id="lampiran" class="lampiran sembunyi"></div>
+  </div>
+
+  <div class="kaki">
+    Berkas tunggal .rajal — pesan, daftar kode, dan sistem buka-sendiri ada di dalam berkas ini.<br />
+    Bila berkas tidak terbuka: ubah nama menjadi <b>.html</b> ( atau <b>.rajal.pdf</b> &rarr; kembalikan jadi <b>.rajal</b> ) lalu buka dengan Chrome.
+  </div>
+</div>
+
+<script id="rajal-data" type="application/json">{"v":1,"id":"SMK01","nm":"Modul_Belajar.pdf","mime":"application/pdf","sz":413,"iter":60000,"salt":"4af4a3a0ad38d7380221fc7f1a653bf6","checks":["99d5e3e5966bb909b9925d5c9b321e3e47e7cdc166f778267ef4998ef5351386","3bddf638d1aa115c251992590e7a0057035f14460d556334de7acf34eed1766d","2eb3f066ed7824c4c852bbfef9385ce45e93b83f9cdc58d1ced72202155db3b3","b75c57cc70bf7766af718fb8cb73aec4ef3fe8571416efb047f35e5e83516818","85f01e2a9131561a5f2eab399b71240e52ea0af181b1544d7afaa5d3be3c8fe5","a4ecde4698c0ea63bdf5b110b61de4388649456e927b19be85c6c9cadf381c00","d680160d874a682836df68e55d457d7e320f311ce22bc81923ea3c64887b0c3c","4053f8d05c139b279766a64ae60f0186ae30d3df7382a2eb6344de7575841a86","f34e5ca8036b84828217a22cdaf7f05f77d5fdd709666073a47c84b2a44d9648","b8c3ea93981dcd5778406e6566034b73fca246ef52fd22a8a863cefd9103582b","c8e8e565e7909544fe21af917f708c16307225d06130da1b04ef43960595cfc0","248a28bf594635c1fcdc0b86df801f10d5808a047891b64906cadfed583ce83b","bdaf3ff6ec4a3fb51d98e67a4bca68011bc0039654941937d985b551b8740fb7","ec8aa1c438147b17644ea2daec22827e634857667314e2db8867cfc194887324","a2c577aec490d1015dd71385431a0193caf900c76cc2b84fd4a3325fec829c30","065097ebdab01b342a17e174faf1f965777c8a3245f1bb3d7fbea7fc7aa9f5ed","23ba95a27f91ca84defbf10979b7c7021e6d56d3d5aad3c8f77a7f37f00433e0","27b5b1262150baf14dfbbca236b932b482c8ecf3254bb17b19e41a34ada2114f","5570ec6743a487456e0a4bd526c09b5bb5db16609d9d2c63b18d78e1b7af17c6","8d16656efa6c063af545cbf335d55e4c8fe09e4b0e98fdce96192a996183ba31","11e4f205ec37ebfb966134e1c12228ffd7997f6b7b18b7f963e7198d6580d435","cb8520d23769b71f11375d556cffc3bc3625d5693be4f9e7f0ee3a02a44823f0","2246d67a5ba4aff7808733ee7684a4445158b59aa51333d2da02bee77badf4b5","eba41a5896ccfd48cad141f1f4bc299266e64bde9f74633d95ec9bfa74a9a434","1a43e210964af20681b02e99833fd80b6692c1b3eedc5d3c7a8760330e1a6d38","b2c13156b6d340f18c4912c5e57d3b3b7e729a3ab81b3793d2622bcc7dde6020","d70afac153764607e240533b423f16aa792d7390da9dfd60aaf359c18588cd24","6bef840dc73e787b9126d81d94ad2eaada5a69dc2a4328da5a0648911e932ad7","50ce29f1a1748316e58ad1804f58c468452abaacf44151b2a0deed61da292f46","ed8b8789369da803efcf530bc57f08d9b89c10eda0d84677e570a00bfa41407c"],"wraps":["230d9741a12cc4dcb92abfdf41a88ab8591b65366ee5dc16fbd7ee25877e9085","5e4c5700edd37a2ab89c73e0c3a8f6b7c03c6b4371d8eec8264896c6d2a654f5","45e4a8fa7051753744ce9b42795398e17c7f87c60b2927d15ffc61aa869a749e","25e9017eb7c4623c7bf2a8795bc31d10f0b8f043fcf12ef5ac0b36ecf828f980","8322a5bf88a24c999ee1aea4718625a5354afec162dc977d219bda9f1d8ee57e","2dec8c894c127c7b738f9d2b511396bbabac18b24907e906877fa06c2ff99e5b","1b07c1d6e94c7749735d65a085cb3652fd4730f83fb07f7bea90e715ce901dbe","555e4131dd03ffa629488b63201d5f6a6dfd10cf9156e7f392651841442ac1fa","fab92da7fcad140753584a761aaae5c741362a669fbf73475359a3cccca274a2","e281973fd9c213cf9c9311299437e2d5487107281ac742f0da972f9e7f687022","80a53e8e50822d0d62f4df4c2899c13b025374e339b1a0956a85c1090b48e575","0c5da9f78f81ba10ceba4b80ea3617c711af0b2d6fffbeed4d2dc82621aaab7e","2d1f508f354ce909d91329fc5cd151b127fb14f9f2b1f1948d68bd8138a6e8ce","1664818b7393f0a4f54cf31b2cf37bd13735723bec7b118f9f5ce265eb7c3437","53473cb160fe73eab850df971ff74aa47db5e96ff473037228778900204bf744","2fda33b101687d64c00053eb7c06250a6a16fd7fda499b33993df9ceebb3a780","83d715d186be6b3ae64a991911368489bfa451fc157d42c457700b9b06cb989f","f5661334fb66170bcca574c97bf90c85228debddfc2eab41c96eb77e5bafccf9","80ec8453cf5f27f14bb3aa216a26315f7b3017bbe316944a9653e0d7178a1059","c17121db8eab00de0a544852f085bf6c311eae30598f8786d1b4faeb0252c1c1","6c63c4049d3b74269390b7f7ec7172f99a48682e42d5fed77f513e68e432a171","f9a2b77b575deae617d0d9e546d09fa96ff74f503a8c72dca9c6ccb22763f755","bc9df605a55ebf2c3b41a25fc2fe1d230c86e89f5772f187f7f2d2cd4b8110ea","e05594894e8fb43e57c5030ac761934ecbe66b2f70a58db4ffe9e3b7932221d0","47ef54ecf8984d6e06d8659238375907cc6eb878f7b9174dc6f812ecdcc7b6f3","dabe64e6c6b2f80040cc72fee741a65cab7f7eee0c774c81ffa6cc5eb785a0cc","8bcffb46a60b35109da0cccaf033b564b2fae7d4ed75fa46ddbe32e2546fd405","7eed20e679194c05f0ab40ae33e5345e76cbe3cabecae684e41ecbdb963edd72","604709cf490b6034437e806506699f22edfdde92650f1d9185f63ff6695671dc","379f2fa3bae3029bb0eb730aae01481514301f1c395f893c7bc649e8e58e114e"],"mac":"077b381528270c379232ec358b38181b","sha":"671e093fcc3ecc6dbb374c1d84fc4775aae6c344407bd9e565fc7fc67b20787c","tgl":"2026-10-26 23:17:36","ct":"O8nf63K1/SJMMKnZxf1SFsokGliFXy/dQW6NEZmcl9kdraERYL/Suz0bogzjs4iy1kpX89aYFKUFAWZKmDIpe3Z6nEWBtc741ZRbINFdLJgx3Rn+MEO1OzlDIRF0ngx3h0I1YePRd6m/sNqGTN2a2slUz3h/p9Y/uJ8zXc+zOx3T7N5LfDXHZd3rN7TxkCu/cmM/F6dppZvtzhU2FnOMkJYQON5cVhjXgadc6rOvuInQo8kAVUMbrOOMdlNJb5inO0ptaO+rKrDPPsBTHqqyUcct/7+zuwKKpESL1uJeOBzQjXLc+qr1Qup2CadCjmn+pl4RUogNW+MJU102x4ryPLg0d/JVGAQJ/Z8lbQEkN/4CgkeGi/vnsKTPWHIjrKW7Xiov1dF4bISZXCj1c+tUEcx27ewsgr0DVhhyNjsKZk2Olm00YBzncA7+eB1HJPrfm37RTpI61Ton5DBuvzhn2zf4l/QM9hwGqJtnf7CAVvDx9sKrQ3avSczk98unRlSGi5g1F1SPEy60WpJM1ZNuvoDBmLXgIXhi+an1GUM="}</script>
+
+<script id="rajal-core">
+/* =====================================================================
+   RAJAL CORE — kripto murni JavaScript (tanpa pustaka, tanpa internet)
+   sha256 · hmac-sha256 · pbkdf2-sha256 · aliran kunci · buka dokumen
+   ===================================================================== */
+var RJS = (function () {
+  "use strict";
+
+  var K = new Uint32Array([
+    0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+    0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+    0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+    0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+    0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+    0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+    0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+    0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2
+  ]);
+  var H0 = new Uint32Array([
+    0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19
+  ]);
+
+  function sha256(msg) {
+    var i, off, l = msg.length;
+    var total = (((l + 8) >> 6) + 1) << 6;
+    var buf = new Uint8Array(total);
+    buf.set(msg);
+    buf[l] = 0x80;
+    var dv = new DataView(buf.buffer);
+    var bits = l * 8;
+    dv.setUint32(total - 8, Math.floor(bits / 4294967296));
+    dv.setUint32(total - 4, bits % 4294967296);
+
+    var H = new Uint32Array(H0);
+    var w = new Uint32Array(64);
+    for (off = 0; off < total; off += 64) {
+      for (i = 0; i < 16; i++) { w[i] = dv.getUint32(off + i * 4); }
+      for (i = 16; i < 64; i++) {
+        var x = w[i - 15], y = w[i - 2];
+        var s0 = ((x >>> 7) | (x << 25)) ^ ((x >>> 18) | (x << 14)) ^ (x >>> 3);
+        var s1 = ((y >>> 17) | (y << 15)) ^ ((y >>> 19) | (y << 13)) ^ (y >>> 10);
+        w[i] = (w[i - 16] + s0 + w[i - 7] + s1) >>> 0;
+      }
+      var a = H[0], b = H[1], c = H[2], d = H[3], e = H[4], f = H[5], g = H[6], h = H[7];
+      for (i = 0; i < 64; i++) {
+        var S1 = ((e >>> 6) | (e << 26)) ^ ((e >>> 11) | (e << 21)) ^ ((e >>> 25) | (e << 7));
+        var ch = (e & f) ^ (~e & g);
+        var t1 = (h + S1 + ch + K[i] + w[i]) >>> 0;
+        var S0 = ((a >>> 2) | (a << 30)) ^ ((a >>> 13) | (a << 19)) ^ ((a >>> 22) | (a << 10));
+        var mj = (a & b) ^ (a & c) ^ (b & c);
+        var t2 = (S0 + mj) >>> 0;
+        h = g; g = f; f = e; e = (d + t1) >>> 0;
+        d = c; c = b; b = a; a = (t1 + t2) >>> 0;
+      }
+      H[0] = (H[0] + a) >>> 0; H[1] = (H[1] + b) >>> 0;
+      H[2] = (H[2] + c) >>> 0; H[3] = (H[3] + d) >>> 0;
+      H[4] = (H[4] + e) >>> 0; H[5] = (H[5] + f) >>> 0;
+      H[6] = (H[6] + g) >>> 0; H[7] = (H[7] + h) >>> 0;
+    }
+    var out = new Uint8Array(32);
+    var odv = new DataView(out.buffer);
+    for (i = 0; i < 8; i++) { odv.setUint32(i * 4, H[i]); }
+    return out;
+  }
+
+  var BLOK = 64;
+
+  function hmac(key, msg) {
+    var i;
+    if (key.length > BLOK) { key = sha256(key); }
+    var pad = new Uint8Array(BLOK);
+    pad.set(key);
+    var ip = new Uint8Array(BLOK + msg.length);
+    var op = new Uint8Array(BLOK + 32);
+    for (i = 0; i < BLOK; i++) { ip[i] = pad[i] ^ 0x36; op[i] = pad[i] ^ 0x5c; }
+    ip.set(msg, BLOK);
+    var inner = sha256(ip);
+    op.set(inner, BLOK);
+    return sha256(op);
+  }
+
+  function pbkdf2(pass, salt, iters, dkLen) {
+    var blokJumlah = Math.ceil(dkLen / 32);
+    var out = new Uint8Array(blokJumlah * 32);
+    for (var b = 1; b <= blokJumlah; b++) {
+      var sb = new Uint8Array(salt.length + 4);
+      sb.set(salt);
+      new DataView(sb.buffer).setUint32(salt.length, b);
+      var u = hmac(pass, sb);
+      var t = u;
+      var next;
+      for (var i = 1; i < iters; i++) {
+        next = hmac(pass, u);
+        u = next;
+        for (var j = 0; j < 32; j++) { t[j] ^= u[j]; }
+      }
+      out.set(t, (b - 1) * 32);
+    }
+    return out.subarray(0, dkLen);
+  }
+
+  function aliranKunci(key, len) {
+    var out = new Uint8Array(len);
+    var blok = new Uint8Array(key.length + 4);
+    blok.set(key);
+    var dv = new DataView(blok.buffer);
+    var pos = 0, n = 0, k;
+    while (pos < len) {
+      dv.setUint32(key.length, n);
+      k = sha256(blok);
+      for (var i = 0; i < 32 && pos < len; i++) { out[pos++] = k[i]; }
+      n++;
+    }
+    return out;
+  }
+
+  function xorBytes(a, b) {
+    var n = a.length < b.length ? a.length : b.length;
+    var out = new Uint8Array(n);
+    for (var i = 0; i < n; i++) { out[i] = a[i] ^ b[i]; }
+    return out;
+  }
+
+  function strBytes(s) {
+    var out = new Uint8Array(s.length);
+    for (var i = 0; i < s.length; i++) {
+      var c = s.charCodeAt(i);
+      out[i] = c & 0xff;
+    }
+    return out;
+  }
+
+  function hexBytes(h) {
+    var out = new Uint8Array(h.length / 2);
+    for (var i = 0; i < out.length; i++) { out[i] = parseInt(h.substr(i * 2, 2), 16); }
+    return out;
+  }
+
+  function toHex(b) {
+    var s = "";
+    for (var i = 0; i < b.length; i++) { s += ("0" + b[i].toString(16)).slice(-2); }
+    return s;
+  }
+
+  function b64Bytes(b64) {
+    var bin = atob(b64), out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) { out[i] = bin.charCodeAt(i); }
+    return out;
+  }
+
+  function samaHex(a, b) {
+    if (a.length !== b.length) { return false; }
+    var d = 0;
+    for (var i = 0; i < a.length; i++) { d |= a.charCodeAt(i) ^ b.charCodeAt(i); }
+    return d === 0;
+  }
+
+  /* Buka dokumen dengan satu kode. Mengembalikan:
+     {ok:true, bytes, nama, mime, check, ukuran} atau {ok:false, pesan} */
+  function buka(D, kode) {
+    var kw = pbkdf2(strBytes(kode), hexBytes(D.salt), D.iter, 32);
+    var cap = toHex(sha256(kw));
+    var idx = -1;
+    for (var i = 0; i < D.checks.length; i++) {
+      if (samaHex(D.checks[i], cap)) { idx = i; break; }
+    }
+    if (idx < 0) {
+      return { ok: false, pesan: "Kode tidak sah atau sudah dipakai. Hubungi pemberi untuk kode baru." };
+    }
+    var mk = xorBytes(hexBytes(D.wraps[idx]), kw);
+    var ct = b64Bytes(D.ct);
+    var tag = hmac(mk, gabung(strBytes("rajal-v1|"), ct)).subarray(0, 16);
+    if (toHex(tag) !== D.mac) {
+      return { ok: false, pesan: "Berkas rusak atau tidak lengkap. Minta pemilik mengirim ulang berkas .rajal." };
+    }
+    /* MAC di atas sudah menjamin keutuhan berkas, jadi tidak perlu dihitung dua kali */
+    var pt = xorBytes(ct, aliranKunci(mk, ct.length));
+    return { ok: true, bytes: pt, nama: D.nm, mime: D.mime, check: cap, ukuran: pt.length };
+  }
+
+  function gabung(a, b) {
+    var out = new Uint8Array(a.length + b.length);
+    out.set(a);
+    out.set(b, a.length);
+    return out;
+  }
+
+  return {
+    sha256: sha256, hmac: hmac, pbkdf2: pbkdf2,
+    aliranKunci: aliranKunci, xor: xorBytes, strBytes: strBytes,
+    hexBytes: hexBytes, toHex: toHex, b64Bytes: b64Bytes, buka: buka
+  };
+})();
+</script>
+
+<script id="rajal-ui">
+/* =====================================================================
+   RAJAL UI — tampilan, pesan salah kode, pencatatan pemakaian perangkat
+   ===================================================================== */
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("rajal-data").textContent);
+  var inKode = document.getElementById("kode");
+  var tombol = document.getElementById("tombol-buka");
+  var status = document.getElementById("status");
+  var hasil = document.getElementById("hasil");
+  var meta = document.getElementById("meta-hasil");
+  var tombolUnduh = document.getElementById("tombol-unduh");
+  var pratinjau = document.getElementById("pratinjau");
+  var lampiran = document.getElementById("lampiran");
+  var urlDokumen = null;
+
+  function tulisStatus(teks, jenis) {
+    status.textContent = teks || "";
+    status.className = "status" + (jenis ? " " + jenis : "");
+  }
+
+  /* ---- pencatatan: 1 kode = 1 kali dipakai di perangkat ini ---- */
+  function kunciSimpan() { return "rajal_pakai::" + D.id; }
+
+  function riwayatPakai() {
+    try {
+      var s = window.localStorage.getItem(kunciSimpan());
+      return s ? JSON.parse(s) : [];
+    } catch (e) { return null; }
+  }
+
+  function catatPakai(cap) {
+    try {
+      var a = riwayatPakai() || [];
+      if (a.indexOf(cap) < 0) { a.push(cap); }
+      window.localStorage.setItem(kunciSimpan(), JSON.stringify(a));
+      return true;
+    } catch (e) { return false; }
+  }
+
+  function ukuranRapi(n) {
+    if (n < 1024) { return n + " B"; }
+    if (n < 1048576) { return (n / 1024).toFixed(1) + " KB"; }
+    return (n / 1048576).toFixed(2) + " MB";
+  }
+
+  inKode.addEventListener("input", function () {
+    inKode.value = inKode.value.replace(/[^0-9]/g, "").slice(0, 6);
+    if (status.className.indexOf("err") >= 0) { tulisStatus(""); }
+  });
+  inKode.addEventListener("keydown", function (ev) {
+    if (ev.key === "Enter") { proces(); }
+  });
+  tombol.addEventListener("click", proces);
+
+  function proces() {
+    var kode = (inKode.value || "").replace(/[^0-9]/g, "");
+    if (kode.length !== 6) {
+      tulisStatus("Kode harus 6 angka. Periksa kembali kode dari pemberi.", "err");
+      return;
+    }
+    tombol.disabled = true;
+    tulisStatus("Memeriksa kode…");
+
+    window.setTimeout(function () {
+      var r;
+      try {
+        r = RJS.buka(D, kode);
+      } catch (e) {
+        r = { ok: false, pesan: "Gagal membuka berkas: " + e.message };
+      }
+
+      if (!r.ok) {
+        tombol.disabled = false;
+        tulisStatus(r.pesan, "err");
+        return;
+      }
+
+      var riwayat = riwayatPakai();
+      if (riwayat && riwayat.indexOf(r.check) >= 0) {
+        tombol.disabled = false;
+        tulisStatus("Kode tidak sah atau sudah dipakai. Hubungi pemberi untuk kode baru.", "err");
+        return;
+      }
+      var tercatat = catatPakai(r.check);
+
+      tampilkan(r, tercatat);
+      tombol.disabled = false;
+      tombol.textContent = "DOKUMEN SUDAH TERBUKA";
+      inKode.disabled = true;
+      tulisStatus("Berhasil! Kode sah dan tercatat dipakai di perangkat ini.", "ok");
+    }, 40);
+  }
+
+  function tampilkan(r, tercatat) {
+    var blob = new Blob([r.bytes], { type: r.mime || "application/octet-stream" });
+    urlDokumen = window.URL.createObjectURL(blob);
+
+    meta.innerHTML = "<b>" + r.nama.replace(/</g, "&lt;") + "</b><br />"
+      + "Ukuran: " + ukuranRapi(r.ukuran) + " &nbsp;·&nbsp; ID: " + D.id
+      + (tercatat ? "" : " &nbsp;·&nbsp; (pencatatan pemakaian tidak tersedia di browser ini)");
+
+    tombolUnduh.onclick = function () {
+      var a = document.createElement("a");
+      a.href = urlDokumen;
+      a.download = r.nama || ("Dokumen_" + D.id);
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    };
+    tombolUnduh.textContent = "SIMPAN / UNDUH " + r.nama.toUpperCase();
+
+    /* pratinjau langsung di HP bila jenis berkas didukung */
+    pratinjau.innerHTML = "";
+    var mime = r.mime || "";
+    if (mime.indexOf("image/") === 0) {
+      var img = document.createElement("img");
+      img.src = urlDokumen;
+      img.alt = r.nama;
+      pratinjau.appendChild(img);
+      pratinjau.classList.remove("sembunyi");
+    } else if (mime.indexOf("application/pdf") === 0 || mime.indexOf("text/") === 0) {
+      var fr = document.createElement("iframe");
+      fr.src = urlDokumen;
+      fr.title = r.nama;
+      pratinjau.appendChild(fr);
+      pratinjau.classList.remove("sembunyi");
+    } else {
+      pratinjau.classList.add("sembunyi");
+    }
+
+    lampiran.classList.remove("sembunyi");
+    lampiran.innerHTML = "Bila tombol simpan belum berhasil, buka dokumen di tab baru: "
+      + '<a href="' + urlDokumen + '" download="' + r.nama.replace(/"/g, "")
+      + '" target="_blank" rel="noopener">' + r.nama.replace(/</g, "&lt;") + "</a>";
+
+    hasil.classList.remove("sembunyi");
+    hasil.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  window.addEventListener("beforeunload", function () {
+    if (urlDokumen) { window.URL.revokeObjectURL(urlDokumen); }
+  });
+})();
+</script>
+</body>
+</html>
